@@ -6,6 +6,19 @@ This folder contains the code used for GBDT-NAS on NASBench-101 data set.
 ## Environments and Requirements
 The code is built and tested on Pytorch 1.5
 
+Install tensorflow 1.15
+
+Install 
+```
+pip install tensorflow==1.15
+pip install lightgbm
+```
+Install libomp if you are using MacOS
+
+```
+brew install libomp
+```
+
 Install nasbench package and download NASBench-101 dataset. 
 
 Install nasbench package install from github (`https://github.com/google-research/nasbench.git`)
